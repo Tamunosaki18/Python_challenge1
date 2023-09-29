@@ -2,7 +2,7 @@
 import os
 import csv
 # Assign csv file
-load = os.path.join(r"./Resources/election_data_1.csv")
+load = os.path.join("C:/Users/amach/OneDrive/Desktop/python_final/Python_challenge1/PyPoll/Resources/election_data.csv")
 # Define variables
 candidate_vote = {}
 winner = ""
@@ -10,10 +10,12 @@ winner_votes = 0
 total_votes = 0
 # Read file
 with open(load, 'r') as csvfile:
-    load = csv.reader(csvfile, delimiter=",")
-    header = next(load)
+    csvreader= csv.reader(csvfile, delimiter=',') 
+
+     # Skip the header row
+    header = next(csvreader)
 # PART I: Calculate the total votes and candidate votes
-    for row in load:
+    for row in csvreader:
         total_votes += 1
         candidates_name = row[2]
         if candidates_name  not in candidate_vote:
