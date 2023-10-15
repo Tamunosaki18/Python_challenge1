@@ -2,7 +2,7 @@ import os
 import csv
 
 # Path to the CSV file
-budget_data = os.path.join("C:/Users/amach/Downloads/Starter_Code (19)/Starter_Code/PyBank/Resources/budget_data.csv")
+budget_data = os.path.join("Resources/budget_data.csv")
 
 # Define variables
 total_months = 0

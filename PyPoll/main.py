@@ -2,7 +2,7 @@
 import os
 import csv
 # Assign csv file
-load = os.path.join("C:/Users/amach/OneDrive/Desktop/python_final/Python_challenge1/PyPoll/Resources/election_data.csv")
+load = os.path.join("Resources/election_data.csv")
 # Define variables
 candidate_vote = {}
 winner = ""
