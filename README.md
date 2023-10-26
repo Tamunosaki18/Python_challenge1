@@ -15,4 +15,17 @@ A python script was created to analyze the records to calculate
 - The percentage of votes each candidate won
 - The total number of votes each candidate won
 - The winner of the election based on popular vote.
-- 
+
+ The CSVs for both Pybank and Pypoll were read and successfully stores the header row
+ Results were correctly displayed for pybank
+ - Total Months
+ - Total
+ - Average Change
+ - Greatest Increase
+ - Greatest Decrease and also,
+Results were correctly displayed for pypoll
+- Total Votes
+- Each candidate's total votes and percent of votes
+- Winner
+
+
