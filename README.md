@@ -23,9 +23,10 @@ A python script was created to analyze the records to calculate
  - Average Change
  - Greatest Increase
  - Greatest Decrease and also,
+
 Results were correctly displayed for pypoll
 - Total Votes
 - Each candidate's total votes and percent of votes
 - Winner
-
+code was cleaned and commenbted and debugging removed.
 
